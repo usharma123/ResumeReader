@@ -1,0 +1,1349 @@
+filename,cleaned_text,sentiment,sentiment_label,sentiment_score
+Evan_Hadam_Resume - Evan Hadam.pdf,"evan hadam
+tampa fl    hadameehgmailcom  linkedincominevanhadam
+education
+bachelor of science in computer science and statistics
+gainesville fl
+university of florida  honors program  gpa 
+may 
+relevant coursework data structures and algorithms financial accounting software engineering databases
+experience
+software engineering intern
+may   aug 
+quidelortho
+rochester ny
+ deployed python script on aws ec to respond to server crashes reducing development downtime by 
+ refactored  lines of embedded c on medical devices eliminating  years worth of technical debt
+ trained team of  developers about best practices with  oral presentations and  pages of documentation
+ presented project to directors and csuite executives to gain funding for cloud computing costs
+research assistant
+sept   march 
+uf department of health outcomes and biomedical informatics
+gainesville fl
+ built protein data pipelines with etl principles and python for interaction prediction with neural networks
+ created docker container and ui to provide  bioinformatics researchers quick access to proteinpeptide analysis
+ reduced potential peptide interactions for target disease by  saving  years and  of testing cost
+analyst intern
+june   aug 
+remax reality unlimited
+tampa fl
+ identified over  search keyword opportunities with the pandas numpy and selenium python modules
+ designed and developed a secure rest api to provide efficient housing data to web developers and consultants
+ started google analytics campaigns resulting in  leads and  in house sales
+projects
+ukelele tuner  python numpy tkinter digital signal processing
+july   aug 
+ developed an open source algorithm using a fast fourier transform to identify ukulele notes for tuning
+ visualized intensity of sound frequencies with tkinter
+leadership
+data structures and algorithms teaching assistant
+aug   present
+university of florida
+ grading coding projects written in c for over  students
+ hosting exam reviews and  weekly office hours to clarify data structures concepts and debug assignments
+codirector of sponsorships
+apr   present
+dream team engineering
+ leading a team of  to host a medical engineering competition with over  attendees and  corporate sponsors
+ sold sponsorship opportunities to  corporations raising  for medical device projects
+fundraising director
+sept   present
+special olympics at uf
+ organized a team of  to organize fundraising events and raise over  in a semester
+ generated automated sms updates to over  summer games spectators with selenium and twilio rest api
+additional information
+languages python c java html css graphql javascript typescript sql
+toolstechnologies nodejs reactjs tensorflow amazon web services firebase docker selenium linux git
+awards st place at uf undergraduate business case challenge plant studentathlete award
+","{'label': 'NEGATIVE', 'score': 0.9946151375770569}",NEGATIVE,0.9946151375770569
+2023 Resume Ella Mendelowitz - Ella.pdf,"ella mendelowitz 
+    emendelowitzufledu  httpswwwlinkedincominellamendelowitz 
+education 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+bachelor of science in biomedical engineeringai certificate               expected graduation spring  
+university of florida gainesville fl 
+gpa  
+relevant coursework 
+construction of a cardiac pacemaker                                                                                                        fall  
+ 
+used different components such as bandpass filters instrumentation amplifiers  
+comparators monostable and astable  timers bit counters and nand gates to construct a 
+functioning pacemaker 
+ 
+tested the system with function generator inputs and live biological ecg signals obtain from 
+cardiac leads and performed troubleshooting on the circuitry  
+research experience 
+undergraduate researcher with beat cancer lab university of florida                  august   present 
+ 
+conducted data analysis of the correlation between test statistics and clinicopathological 
+variables to determine clinical relevance of rna splice variants and immune cell distribution in 
+kidney cancer patients 
+ 
+identified kidney cancer biomarkers and their relationships to assess severity and generate a 
+predictive algorithm for patient susceptibility and viable treatment options   
+ 
+explored the culturing and cultivation of cardiac fibroblasts cardiac endothelial cells and 
+cardiomyocytes 
+undergraduate researcher with dobson lab university of florida                   august   august  
+ 
+replicated the protocols from field research papers to seed cell cultures and differentiated 
+epithelial cells into neuronal cells for future nanomagnetic particle manipulation  
+ 
+conducted calcium imaging with florescent molecules to verify the differentiation procedures 
+ 
+created magnetic microdiscs and nanoparticles for experimentation 
+design experience 
+cardiothoracic subteam leader uf dream team 
+ 
+ 
+ 
+       dec   present 
+  
+ 
+created a d model showcasing supraventricular tachycardia using solidworks and integrated 
+the design with electrical components to produce a teaching method for doctors at shands  
+dream team shadow   
+ 
+ 
+ 
+                                                aug   dec  
+ 
+shadowedassisted with the diabetes vr berlin heart and surgical kidney teams  
+teaching experience 
+chemistry ta chm university of florida   
+ 
+ 
+ 
+   aug   may  
+ 
+led  discussion section held  exam reviews per semester created answer keys and helped 
+students with assignmentsquestions pertaining to their independent design projects  
+involvement 
+phi sigma rho engineering sorority university of florida                                                 jan   present  
+study abroad university of floridauniversit catholique de lille 
+ 
+     june  july  
+ 
+enrolled in physics  and engineering art and was featured at several art exhibitions 
+rov remotely operated vehicle ambassador national geographic 
+              aug  august   
+ 
+learned how to code programs construct and control rovs for underwater exploration 
+ 
+acted as a mentor for new classes held positions as group leader and general speaker   
+skills 
+ 
+softwarehardware matlab solidworks leica microscope imaging arduino circuit design  
+ 
+laboratory cell culture of epithelial cells in bsl facility differentiation processes solution 
+production wet lab protocols analysis of microscopy images nanoparticle production 
+experimental design presentation and analysis of experimental data
+","{'label': 'NEGATIVE', 'score': 0.9906759262084961}",NEGATIVE,0.9906759262084961
+23 - Hannah Kennedy.docx,"
+leadership 
+national honor society							 	                         
+president 
+led meetings and coordinated volunteer activities and events including induction ceremonies and weekly tutoring
+
+science national honor society						                         
+president 
+led meetings and organized regional competitions science fair science olympiad science bowl envirothon
+
+womens studies club					                                            	           
+president and founder 
+founded and created club bylaws initiated drives for menstrual products to womens shelters and provided fuller education on womens contributions to society and stem
+
+the villages high school chamber choir			  			           	
+president  july 
+coordinated events for all choirs and spoke as a liaison to school administration and for national performances
+
+the villages high school varsity swim team				       	           	
+district captain  regional captain  team captain 
+led practices served as a liaison for the villages athletic booster club and supplied meet overviews for the daily sun newspaper
+
+interact club									      	            
+liaison  vice president 
+corresponded the plans of the officers to the members introduced novel volunteer opportunities led all meetings in the absence of the president recruited over twenty new members and served as a liaison for the rotary club 
+
+future health professionals						  	                         
+historian  vice president 
+documented all club activities and served as a competition leader for the regional and state levels
+
+mu alpha theta						     		  	                         
+vice president 
+expedited and competed in math competitions and ran meetings in the absence of the president
+
+sexual and gender equality club 						                         
+treasurer  leadership council 
+managed funds for volunteer activities and promoted communication with the pflag chapter of the villages 
+
+academic achievements
+
+regional science fair winner and international science and engineering fair finalist 
+invitation to perform at the african american music festival in pennsylvania
+superiorranking performance at the regional music performance assessment
+invitation to perform with choir at epcots candlelight processional
+regional science bowl finalist
+fhsaa class a academic team champion for girls swimming and diving
+
+ap scholar with distinction
+st place regional hosa research winner and state finalist 
+nd place at both regional mathlympics and envirothon competitor at regional science bowl 
+superiorranking performance at the regional and state mpa
+invitation to perform with choir at carnegie hall
+
+
+fourth place award at international science fair
+top  placement in hosa slc state science fair envirothon and mpa
+international finalist for hosa ilc
+regnerons biomedical science award
+selected as a speaker for the mlk foundation with an oral presentation to a  member audience
+selected as a speaker for the opening ceremony of the state science fair  member audience
+health science fundamentals certification 
+national health science certification
+research projects
+ d printed larynx able to mimic the natural epiglottic closure processes preventing aspiration isef finals
+ examination of the potential treatments of brevetoxincontaining habs originating from k brevis dinoflagellate
+ a novel cytobrush for papanicolaou tests to reduce acute pain and increase effective sample collection isef th
+ utilizing a closedloop neurocomputational interface system for parallelized unsupervised development ai to bi
+this project will be composed into three academic papers with dr giordano dr shook and dr wurzman at georgetown university and will be published on the ieee 
+
+athletic accomplishments
+
+notable community service  hours
+donations for ukrainian refugees 				           	 	                                    
+st mary protectress
+orchestrated drives for emergency supplies and raised over  for ukrainian refugees residing in poland
+letters to veterans							                                         
+interact club with the villages rotary club 
+handmade and wrote hundreds of individualized letters for local veterans in nursing homes 
+alzheimers walk								                                        
+interact club with the villages rotary club 
+assisted in directing thousands of residents participating in the annual alzheimers walk 
+work experience 
+city of leesburg							             		                     leesburg fl   
+lifeguard 									              	                         
+underwent intensive training to maintain a safe aquatic environment for patrons including the rescue and 
+care of patrons in distress the administration of pool chemicals and the fiscal management of all products sold","{'label': 'POSITIVE', 'score': 0.9899069666862488}",POSITIVE,0.9899069666862488
+Resume (2) - Alex Kim.pdf,"
+
+alexander kim
+kimaufledu
+
+education
+bachelor of science in computer science
+university of florida  expected graduation spring   current gpa 
+ benacquisto scholar honors program univeristy research scholars program
+involvement
+buddy up for life
+celebration high school  volunteer  june   december 
+ served as a buddy for an athlete with down syndrome
+ met weekly to play games encourage physical activity and build conversation skills
+dream team engineering
+university of florida  unity designer  august   present
+ collaborate with uf health shands hospital to develop novel medical technology
+ design and create medical simulation exercises for students
+technology student association
+celebration high school  president  august   may 
+ encouraged classmates to explore interests in technologyrelated events
+ hosted educational workshops to promote student interest in technology
+ achieved multiple finalist placements at the fl statewide conference
+ led a threetime national qualifying video game design team
+society of robotic surgery srs teen ambassadors
+copresident  may   may 
+ moderated a discussion panel at the  srs conference
+ served as a research assistant on an international medical research project
+ awarded at the  srs conference for excellence in leadership
+projects
+tabbedin
+dream team engineering designathon  october 
+ winner of  dte prescription to play designathon
+ served as lead programmer
+jigsaw jutsu
+technology student association  httpssimmeriobobtsavideogameteam  february 
+ winner of the florida state tsa conference video game design event
+ served as captain
+ served as lead programmer
+skills
+java
+python
+c
+c
+unity
+","{'label': 'POSITIVE', 'score': 0.9874628186225891}",POSITIVE,0.9874628186225891
+Jayden Spitulnik Resume - Jayden Spitulnik.docx,"
+jayden spitulnik
+   jspitulnikufledu  linkedincominjaydenspitulnik 
+
+education												                        
+university of florida may 
+ bachelor of science in computer science  gpa 
+ minor in business administration
+ artificial intelligence fundamentals and applications certificate
+
+skills			   									           	           
+front end javascript typescript html css react php react native
+back end python c java c go
+other technologies graphql git github firebase sql matlab
+
+relevant experience and involvements								
+uf dream team engineering 							        
+ shadowing team fall 
+worked with different teams sat in on meetings pitched ideas and caught up with projects quickly
+implemented apis such as auth and added assets to unity projects
+ cardiology team spring present
+collaborated with a prestigious team of engineers working with shands childrens hospital to build a groundbreaking website for doctors
+contributed to the creation of an innovative platform that allows doctors to upload dicom files providing interactive d visualization of childrens hearts for enhanced medical analysis
+utilized react for frontend development and contributed to the implementation of a userfriendly interface
+designathon committee summer present
+developed a website in weebly to facilitate participant registration and marketing for the designathon a crosscampus hackathon fostering engineering innovation meant to support shands childrens hospital
+played a key role in marketing efforts crafting strategies to engage other engineering student organizations and attract participants to the designathon
+
+dance marathon
+digital marketing tech team captain fall present
+maintained and updated legacy php  website
+developed new react native app for entire organization from the ground up with a firebase database
+collaborated and worked in teams to meet deadlines and ensure quality code
+
+personal projects				  						           	
+minesweeper spring 
+designed and implemented a dynamic minesweeper game using the c sfml library featuring adjustable grid sizes customizable mine counts and a functional leaderboard for tracking player scores
+
+webcam to ascii spring 
+developed a webcamtoascii program utilizing python libraries opencv and numpy transforming live video input into realtime ascii representations
+
+dr ai fall 
+built ai chat app using react for designathon competition
+quizzed premed students on diseases and proper treatments to give
+allowed users to receive medical advice given their symptoms and relevant pre qualifiers
+
+work experience				  					                	           
+code ninjas
+coding instructor summer 
+led coding classes and camps for children aged 
+facilitated engaging and interactive learning experiences that increased student scores by 
+collaborated with other instructors and staff to improve curriculum and teaching methods that increased retention by 
+assisted students in problemsolving coding challenges and debugging errors in their projects","{'label': 'POSITIVE', 'score': 0.9873569011688232}",POSITIVE,0.9873569011688232
+Copy of Bản sao của LÊ MINH ĐẠT Resume - Đạt Lê minh.pdf,"minh dat le
+harydatgmailcom
+ct my dinh ward nam tu liem hanoi vietnam
+
+educational background
+international innovation competition aim to promote research in various disciplines to solve global issues
+mathematics specialized class                
+foreign language specialized school 
+marie curie secondary school
+english specialized class                            
+grades and scores
+gpa grade    grade    grade      
+achievements
+gold medal       idea  world invention  innovation competition                                                                                                    
+silver award    asian international math olympiad aimo                                                                                                               
+silver award    mathematico  international math and science competitions stemco                                                   
+gold award    asian science mathematics olympiad asmo  national round                                                                     
+the largest asian mathematical competition for students attracted nearly  students from  countries
+ an international olympiadstyle mathematics competition attracted   students worldwide
+an international competition focusing on the subjects of science mathematics and english
+outstanding award    national top     acsl american computer science league ongoing                     present
+top  national finalist    vin universitys science  technology competition ongoing                                  present
+published research paper    application of allee effects in cancer treatment                                            jun   dec    
+international programming competition with the participation of  teams of high school students globally
+national competition hosted by vin university for high school students with innovative ideas
+  research assistant       published in the vietnam medical journal issue  no  print version online access via
+shorturlatjefqy
+calculated integral and antiderivative equations 
+designed the algorithms to simulate and graph the growth of cancer cells 
+ielts 
+ap calculus bc   computer science a 
+sat  math  verbal 
+product development
+research  publication
+bvest  smart vest for health tracking and guidance            personal project                                         july   aug  
+bglasses  ai glasses for the blind                team project                                                                                                 july   august      
+               the glasses are incorporated with an ai camera able to identify objects and inform the owner through a mini speaker 
+               designed to assist the blind in daily life
+               a sensor vest that can monitor health information of the user track their location in cases of emergency send sos 
+               messages to emergency contacts and notify user of incoming obstacles 
+the willchair          team project                                                                                                                               oct   mar 
+the project received gold medal in the  idea  world invention  innovation competition organized in istanbul turkey
+        a wheelchair controlled by voice and head movement designed for the heavily injured and partial paralyzed patients
+research assistant      husts internet of things summer training program                                       jun   aug 
+attended an week iot and ai summer training program hosted by hanoi university of science and technology in
+collaboration with makipos electric company 
+supported universitys seniors and professors in executing graduation projects and thesis
+internships
+research collaborator        esoleil project ai in developing solar energy                                                 jul   aug 
+labeled data and identifying ai algorithm errors 
+attended weekly artificial intelligence workshops
+technical skills python react native java matlab arduino rasberry pi lua
+university of florida
+computer science major                             
+managed and trained  club personnel
+allocated resources for clubs activities
+planning and supervising clubs events and activities
+coordinated monthly trash collecting events at hanois local parks and residential areas and taught  households
+to classify and recycle waste using the app green mission
+hosted  tutorial workshops on creating mini gardens for small apartments with  participants in collaboration
+with nature village a sustainable agriculture club
+raised  to organize a midautumn festival with diy activities lantern making mask decorating minigames
+musical show and for children in binh minh school for the disabled hanoi and create  handmade gifts for
+disabled children in dong anh 
+cofounder  president           handiy club                                                                                                             nov   present 
+       a hub for environmental enthusiasts to apply creative and fun approaches to solve environmental problems  
+hobbies  interests
+sports
+diy 
+photography
+filmography
+billiards
+leaderships
+founder  president          crescent club                                                                                                                        jul   present
+a stem  charity club dedicated to applying scientific knowledge to improve the lives of the disabled 
+organized  computer science summer courses at hoang mai handicapped center for  participants
+designed curriculum for basic to intermediate computer science course
+maintained collaborative relationship with the centers board of management 
+managed and allocated resources for the workshops 
+trained  club members to serve as teaching assistants for the workshops
+hosted the workshops as the main lecturer
+coordinated the execution of assistive technology development projects to improve  the disables life
+drafted ideas and conducted research with club members
+drafted blueprints and supervised club members in prototypes creation
+managed product usability tests  
+poetry
+deeplearningai specialization online courseworks    coursera certificate                                          nov   oct  
+neural networks and deep learning                                                                         
+improving deep neural networks hyperparameter tuning regularization and optimization                                                                                     
+structuring machine                        
+convolutional  neural network
+ sequence model                                                                                                                                   
+courseworks
+","{'label': 'POSITIVE', 'score': 0.9852773547172546}",POSITIVE,0.9852773547172546
+Ania Updated Resume  - Ania K.pdf,"ania kelegama
+aniakelegamaufledu 
+american heritage school plantation fl
+class of   ap courses
+national and local awards
+ florida science olympiad states
+placed top  in  events
+ florida science olympiad regionals
+placed st nd and th in  events
+ cornell science olympiad invitational
+placed top  in all events th overall as a team
+ california tech science olympiad
+invitational placed in all  events out of  schools
+ florida science olympiad regionals
+placed in all events and overall team placed rd
+in the region and th at states
+ ap language and composition class award
+ chinese iv honors class award
+ florida science olympiad st place in  events at
+regionals and th place overall as a team at states
+ broward county science fair st place in animal
+science
+ state science fair qualifier canceled due to
+covid pandemic
+ state science and engineering fair finalist
+research
+ nova southeastern university college of
+pharmacy worked with dr anastasios lymperopoulos
+on the exploration of strategies involving g
+proteincoupled receptor kinases  betaarrestins to
+increase cardiac function
+ journal of student research
+published research on blocking neuropilin in
+drosophila melanogaster as a possible treatment for
+pain and limiting sarscov cell entry
+httpsdoiorgjsrhsvi
+ florida junior academy of science
+presented research on blocking neuropilin in
+drosophila melanogaster as a possible treatment for
+pain and limiting sarscov cell entry
+ junior symposium of engineering humanities
+and science presented research on silencing the
+dennda gene with drug treatment and rnai to
+activate follicle rupture in polycystic ovarian drosophila
+high school extracurricular activities
+national honor society  member
+grades 
+chinese honor society  president
+grades 
+lead meetings liaise with advisor determine fundraising
+distribution to nonprofit organizations  hoursweek
+science national honor society  member grades 
+national art honor society  member
+grades 
+chinese club  culture dept chair
+grades 
+research chinese culture and develop presentations for
+club members peer tutor for chinese course manage
+social media page organize culture booth  hoursweek
+science olympiad  life science coordinator
+grade 
+aid in preparation for competitions oversee life personal
+ social sciences events coach and student
+communication and resource creation  hoursweek
+international club  event coordinator
+grade 
+communicate with charities and other organizations to
+plan school events  hoursweek
+heart to art  secretary
+grade 
+club partners with boys and girls club of broward to teach
+art to young children in charge of meeting notes helping
+plan lessons and signing service hours  hoursweek
+social media club  secretary junior year
+grades 
+write blogs to market american heritage to chinese
+international students took meeting notes communicated
+with president completed service forms  hoursweek
+community service
+memorial hospital pembroke
+june   present
+file documents help sanitize medical equipment transport
+patients  hoursweek
+feeding south florida
+august   present
+prepare meal boxes for homeless shelters and food
+pantries  hoursweek
+american heritage school
+august   present
+peer tutor for students taking chinese  hoursweek
+plantation summer camp
+summer 
+taught science experiments to children ages 
+ hoursweek
+work experience
+american heritage camp  lifeguard
+summer
+ 
+sovereign poke boba  cashierwaitress
+february
+july 
+publix supermarket  bagger
+summer 
+","{'label': 'NEGATIVE', 'score': 0.9825419187545776}",NEGATIVE,0.9825419187545776
+Resume - Selene H.pdf,"selene hsu
+  selenehsuhotmailcom orlando fl  wwwlinkedincominselenehsu
+education
+university of florida
+expected graduation may 
+bachelor of science in mechanical engineering and minor in biomechanics
+
+gpa 
+
+relevant coursework applied human anatomy with lab statics materials intro to electrical engineering
+skills  certifications
+skills solidworks d slicer matlab arduino java python microsoft office
+certifications biotechnican assistant credentials
+languages english chinese
+professional experience
+biomedical engineering intern
+dash orlando  orlando fl
+may   aug 
+
+created precise d models from ct and mri scans enhancing preoperative planning and visualization for surgical
+procedures
+
+designed and developed surgical guides tailored to specific medical cases streamlining surgical procedures and
+improving patient outcomes
+
+developed a custom software program to automate the design process for surgical guides significantly increasing
+efficiency and accuracy in guide production
+leadership  involvement
+grip generational relief in prosthetics
+oct   present
+
+designing a prosthetic device enabling individuals with limited arm and wrist mobility to actively engage in golf
+
+collaborated with a multidisciplinary team to develop the device utilizing d modeling and printing for iterative
+prototyping and refinement
+sase southeast regional conference programming committee
+oct   present
+
+planning a regional professional development conference actively involved in creating the comprehensive event
+schedule organizing workshops activities and social events
+
+organizing the career fair facilitating connections between participants and potential employers
+firstyear leadership program director
+may   present
+
+implemented programs  initiatives to cultivate leadership skills among firstyear students fostering personal and
+professional growth
+
+facilitated a welcoming  inclusive environment for firstyear students actively promoting  organizing events 
+programs to encourage meaningful connections
+dream team engineering
+sept   present
+
+used ct scans to create detailed anatomical models improving the learning experience for medical residents at uf
+health shands
+
+created d models that visually explained heart conditions making it easier for patients to understand their health
+
+developed interactive models to help medical residents practice surgical procedures and enhance their skills
+
+working on developing an advanced lung balloon model featuring integrated pressure sensors to elevate the
+educational experience for students
+chinese american student association director of multimedia
+sept   present
+
+produced engaging multimedia content to showcase club events and initiatives
+
+promoted events and opportunities through social media expanding the clubs reach and influence in the community
+","{'label': 'POSITIVE', 'score': 0.9796128273010254}",POSITIVE,0.9796128273010254
+Ansh Parikh_2023 Resume - Ansh Parikh.pdf,"ansh parikh
+   anshparikhufledu  linkedincominanshparikh
+education
+university of florida college of liberal arts  sciences                                                     gainesville fl
+bs  behavioural  cognitive neuroscience premedicine                                   aug   present
+minors  public health  spanish
+notable coursework cognitive psychology behavioural neuroscience abnormal psychology biology 
+iilab general chemistry iiilab anatomy physiology sociology drug abuse  behavioural 
+addiction statistics iii human sexuality and culture public health concepts food in healthwellness
+stanton college preparatory school  florida virtual school                                              jacksonville fl
+international baccalaureate diploma programme honours                                                     
+sat 
+notable coursework apib hl biology apib sl chemistry apib sl  hl spanish apib sl 
+psychology honors anatomyphysiology honors probabilitystatistics honors physics
+experience
+dream team engineering gainesville fl                                                                       sep   present
+mri research team member
+assist in assessing how a studentdeveloped dprinted toy mri model mitigates pediatric patient 
+stress anxiety and stigmas surrounding mri testing
+helped revise research irb proposal on the devices efficacy submitted for review
+volunteer in ufhealth shands pediatric radiology department to conduct research and assist nurses
+garden of eden moss gm miami fl                                                                   aug   apr 
+research director
+directed data collection for a companycommissioned research project on the effects of gms sea 
+moss herbal supplement products on human alertness mood and relevant behaviours
+recruited  research assistants and  participants working alongside company executives
+delegated data collection and literature review tasks to staff and produced a formal research report for 
+the company
+volunteering
+colorectal cancer provider outreach program miami fl                                         dec   jun 
+outreach team member
+produced multimedia featured in gi publications gastroenterology  endoscopy news gi  
+hepatology news and the peerreviewed practical gastroenterology journal
+coldcalled hospitals and reached practising gastroenterologists gastrointestinal care providers and 
+related nonprofit organisations acs fightcrc ccc ccf cc alliance in all  states to provide 
+reliable and accessible guidance and support to newlydiagnosed colorectal cancer patients
+overvalued ideasdr mohit chauhan mayo clinic jacksonville fl                      mar   jun 
+research assistant  content producer
+assisted in the production of a survey targeted towards south asianamericans and their mental health 
+relevant to the covid pandemic and its drastic effects in south asia
+produced various public resources podcasts infographics videos to help address mental health 
+stigmas in american immigrant communities with an emphasis on south asian experiences
+skills data collection laboratory techniques medical terminology multimedia production irb protocol
+honours uf international scholar deans list  presidential honor roll duval county seal of biliteracy in 
+spanish joe berg science scholar ap scholar with distinction
+outside interests exploring new music indian fusiontraditional dance and world travel and cuisines
+","{'label': 'NEGATIVE', 'score': 0.9774025082588196}",NEGATIVE,0.9774025082588196
+GS Resume 2023 - Gaby Smith.pdf,"gabriella smith 
+msgabyrsmithgmailcom    wwwlinkedincomingabriellarosesmith  
+httpsgithubcomsassygabyrose 
+ 
+education 
+bachelor of computer science  
+ 
+ 
+                                                               may  
+university of florida gainesville fl                                                                                                gpa  
+skills  
+ 
+ 
+proficient in python c javascript html css anaconda and unity 
+ 
+received certification from ibm in an introduction to ai 
+relevant experience 
+ 
+wheres my water verizon university of florida ai days hackathon                                                  october  
+ 
+helped create a web application that tracked groundwater levels and predicted future levels of depletion based 
+on user input 
+ 
+won first place and most popular for the ai days hackathon 
+summer immersion program ta girls who code                                                                        june   july  
+ 
+taught game design principles and programming concepts to over  high school girls using javascript and 
+the pplay library 
+ 
+mentored a group of  students through the program while debugging and providing critical feedback 
+ 
+invited as a panelist for a girls who code roundtable and asked to use video of my teaching lessons for future 
+instructors as a guide for how to teach the program 
+computer science summer institute scholar google  
+ 
+                                  july   august  
+ 
+collaborated in an introductory projectbased htmlcss and javascript curriculum taught by google 
+engineers to motivate the next generation of computer scientists 
+ 
+completed  individual coding projects to improve javascript and html skills 
+ 
+attended  product design resume development and software engineering interview workshops taught by 
+google engineers to grow as an engineer and as a future intern 
+ 
+delivered a collaborative final project presentation that developed public speaking skills and included a live 
+demonstration for google employees and community leaders 
+involvement 
+ 
+diabetes vr team member dream team engineering  
+ 
+ 
+ 
+        august   present 
+ 
+collaborated on the diabetes vr team helping create objects in a d game for newly diagnosed children with 
+diabetes to properly read nutrition labels and learn about sugars in food 
+projects 
+ 
+marietta local art scene  javascript html css 
+ 
+ 
+ 
+  
+                           june  
+ 
+produced a web application for local artists to create a profile to display their artwork along with information 
+of where to buy the artwork for patrons to connect with artists in their area 
+ 
+designed the application within two days for a hackathon and taught myself valuable concepts in web 
+development such as creating a login page and making a complex carousel to display artwork 
+recipe helper  javascript html css    
+ 
+ 
+                                                                        july  
+ 
+constructed a website where the user selects what food or dietary restriction they had and using integrated 
+user assistance would generate a recipe following these guidelines 
+ 
+utilized the api database edamam to provide recipes along with javascript backend programming to save the 
+users choices 
+ 
+collaborated with two other students to present the website to peers and google employees 
+extracurriculars 
+ 
+gamma phi beta academics chair dream team engineering member society of women engineers member 
+engineering peer advisor virtual experiences research group member 
+","{'label': 'POSITIVE', 'score': 0.9739382266998291}",POSITIVE,0.9739382266998291
+"Natalia Piascik Resume - Piascik, Natalia E..pdf","natalia piascik 
+                 nataliapiascikhotmailcom 
+education 
+university of florida 
+ bachelor of science in mechanical engineering 
+ gpa  
+santa fe college 
+ associate of science in engineering 
+ gpa  
+ 
+may  
+ 
+ 
+may  
+experience 
+engineering intern sarasota medical products sarasota fl 
+ implemented validation procedures that aligned with 
+medical fda regulations for medical device production 
+machines 
+ executed product testing and altered product design to 
+enhance durability of ostomy pouches 
+ created preventative maintenance procedures for 
+various machines 
+ trained new personnel in company procedures and fda 
+regulations 
+contemporary dance choreographer diane partington studio of 
+classical ballet sarasota fl 
+ choreograph contemporary dances and coach for 
+students aged  
+ alter audio recordings using music editing software 
+ network with business owners to increase clientele at 
+community events 
+ mentor young dancers to succeed in their endeavors 
+ 
+july 
+june  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+july 
+present 
+extracurriculars 
+dream team engineering university of florida 
+ used materialize meshmixer and solidworks to 
+transform scans of an infant to a physical simulation of 
+a caudal block 
+ worked with the cssalt lab at the university of 
+florida to develop a simulation of a caudal block 
+procedure for physicians to learn with 
+volunteer habitat for humanity gainesville and sarasota 
+ operated power tools and heavy machinery 
+including circular saws and pressurized nail guns 
+ installed soffit exterior siding and fire proofing to the interior of 
+a house 
+ 
+august 
+present 
+ 
+ 
+ 
+ 
+ 
+august 
+may  
+skills computer aided design certified solidworks associate fusion  
+programming languages python javascript materialize meshmixer 
+ 
+","{'label': 'NEGATIVE', 'score': 0.967413067817688}",NEGATIVE,0.967413067817688
+Sanandan-CV-2023-12-20-DTE - Sanandan Ojha.docx,"sanandan ojha
+ barbados drive jupiter fl  ojhasanandangmailcom   
+
+education
+university of florida gainesville fl aug   present
+biomedical engineering bme gpa 
+classesskills programming with data in r differential equations genetics
+
+suncoast community high school riviera beach fl aug   may 
+math science  engineering program
+weighted current year gpa 
+weighted cumulative gpa 
+ap capstone research overtreatment in medicine mentor rajesh khamar md member of the medication use committee va medical center west palm beach fl
+
+internships
+university of pittsburgh pittsburgh pa may  jun 
+research assistant department of radiology mentor ashok muthukrishnan md ms 
+collected and analyzed positron emission tomography imaging data and biochemical data for research project evaluating role of psma imaging in advanced prostate cancer
+coauthored an invited article on the status update of the newly fda approved prostatespecific radionuclide therapy drug lutetium  psma  pluvicto for the journal targeted therapies in oncology
+presented scientific abstract on esthesioneuroblastoma medical research  secsnmmi 
+currently working on a scientific paper on advanced prostate cancer imaging research to be published in journal of nuclear medicine
+
+published manuscripts
+sanandan ojha ashok muthukrishnan md ms pluvicto approval launches theranostics in prostate cancer targeted therapies in oncology    july  
+sanandan ojha ashok muthukrishnan md ms role of f pylarify psma pet imaging in management of biochemical recurrence in advanced prostrate cancer in preparation
+
+oral presentations
+sanandan ojha charles jordan ashok muthukrishnan utility of sstr pet imaging in management of rare olfactory neuroblastomas presented at the  annual meeting of the southeastern chapter of the society of nuclear medicine and molecular imaging secsnmmi october   in savannah ga
+
+councils and committees   
+mu alpha theta general secretary   
+puzzle club secretary   
+secme generator president   
+
+projects
+dte  hour designathon
+created a lowcost pill dispenser that uses a single arduino servo and is expandable to hold any number of different pills
+also created a jigsaw puzzle whose completion would send a signal to activate the pill dispenser to encourage children to look forward to taking their prescription would also help older patients practice fine motor skills
+
+shadowing personal project 
+learn autocad to create a simple model clock and gave a presentation at the end of the semester","{'label': 'NEGATIVE', 'score': 0.9654778242111206}",NEGATIVE,0.9654778242111206
+Ayush.Jain_Resume - Ayush.pdf,"education
+bs in biochemistry minor in statistics
+university of florida
+cumulative gpa 
+  
+gainesville fl
+honors program and university research scholars program recipient
+courses taken  in progress general chemistry    genetics programming w 
+data statistical modeling ap biology ap physics c mechanics ap physics c e  m 
+ap calculus bc
+professional experience
+undergraduate researcher
+university of florida
+will be working in a bioengineering wet lab on a project concerning pain detection 
+and management under dr allen
+  
+research intern
+florida institute of technology
+conducting independent project titled using finite element analysis and 
+experimental investigation to optimize a novel bioresorbable metalpolymer 
+composite stent for treatment of coarctation of the aorta in children under 
+guidance of dr dong
+  present
+wrote literature review and proposal
+using cad software onshape for stent design and ansys for fea
+organizations
+dream team engineering
+cardiothoracic research team member
+drafted paper concerning patient education and outcomes following use of the berlin 
+heart model
+  present
+present posters at uf undergraduate research symposiums
+crafting education
+head volunteer
+led and mentored a group of kids at a summer camp focusing on stem activities
+  
+designed and dprinted toys to be used in projects
+leadership
+lincoln douglas debate team
+cocaptain
+competed in multiple statelevel ncfl tournaments
+constructed cases for my team
+florida american legion boys state
+delegate
+one of  florida boys selected after application and interview process
+learning about florida law and parliamentary procedure i worked to have bills enacted in our own mock 
+government
+skills
+r  rstudio proficient
+ayush jain
+st year student at the university of florida
+jainayushufledu
+ 
+merritt island fl
+","{'label': 'NEGATIVE', 'score': 0.8959136605262756}",NEGATIVE,0.8959136605262756
+Utsav Resume - Utsav Sharma.docx,"utsav sharma
+	 utsavsharmagmailcom
+
+education
+bachelor of science biochemistry		                                                                   may 	                      
+university of florida gainesville fl 
+relevant coursework biochemistry biology and organic chemistry
+
+project experience
+research intern                                                                                                               may   august 
+summer internship program  national institute of health
+created literature reviews regarding pandemic spread patterns
+designed disease surveillance protocols using available literature and computer analysis to increase disease prevention mechanisms and reduce disease spread
+analyzed quantitative and qualitative data and used r to determine stochastic effectiveness of each designed protocol
+
+research intern                                                                                                             may   july 
+lsdhallucinogens trial segal trials 
+oversaw the data collection and analysis efforts of memory suggestion trials
+observed and contributed on the paper regarding the results of the effect of hallucinogens in memory suggestion  
+research  intern                                                                                                              may   august 
+fiu department of public health
+devised a systematic review protocol to determine the psychological effect of caregiver burden of parents who have children that are transitionage autism 
+conducted metaanalyses and intensive literature reviews to determine and evaluate literature regarding transitionage youth who have autism 
+
+involvement
+cardiothoracic research team                                                                                 		august   present   
+uf dream team engineering        
+wrote and suggested efficacy based protocols for the modeled berlin heart
+presented paper protocol in curb research conference 
+collaborated with mechanical engineers software engineers doctors and uf medical students to create infantile prototypes
+
+d printing outreach team                                                                                                august   present   
+d printing club at uf 
+planned and hosted events throughout the school year to promote stem to middle schools and highschools in the gainesville area 
+helped build and show d printers to highschool and middle school students to empower future engineers 
+
+observership			                                                                              	   august   present
+  medigators 
+participated in virtual and inperson observership of  medical professionals
+collaborated with other premed students to involve freshman in observerships
+attained  virtual and in person hours
+technical skills
+software languages  r python c and c
+research skills  literature reviews metaanalyses statistical analysis and scientific writing 
+
+awards  accomplishments
+uf presidential scholarship          
+bright futures scholarship                 
+miramar high school valedictorian   
+deans list x     
+","{'label': 'NEGATIVE', 'score': 0.8740109801292419}",NEGATIVE,0.8740109801292419
+Mia Molinelli MASTER Resume  - Mia Molinelli.pdf," 
+ 
+mia m molinelli 
+gainesville fl         mmmolinelligmailcom  
+ 
+education 
+master of science in management  university of florida                                                                                    june               
+gpa   deans list   
+ 
+bachelor of arts in economics  university of florida                                                                                          june               
+ 
+internship  leadership experience 
+summer intern                                                                                                                                              
+europe economics                                                                                                                                        london england 
+ 
+trained in incentive design cost of capitalcost assessment and attended a digital market competition and 
+regulation workshop 
+ 
+supported the europe economics advising team with economic and data analysis document summaries and 
+deliverable prep 
+ 
+assessed acm  cwapes approach on indexation real price effects and cost of capital 
+ 
+summarized vregs qfactor methodology for past price control 
+ 
+analyzed european energy regulators using cost benchmarking 
+ 
+led drafting of the background and methodology sections of a client proposal bid 
+ 
+analyst                                                                                                                                                           present 
+gator wealth and asset management                                                                                                          gainesville fl 
+ 
+conducted a comprehensive analysis of portfolios including investment performance risk assessment and asset 
+allocation strategies 
+ 
+collaborated with other team members to develop and implement personalized wealth management strategies for 
+case studies 
+ 
+monitored and evaluated financial market conditions economic trends and regulatory changes to adapt and 
+optimize asset management strategies accordingly 
+ 
+produced a detailed report presentation and recommendations based on financial analysis to guide investment 
+decisions 
+ 
+stem special events design team                                                                                                           present 
+dream team engineering                                                                                                                               gainesville fl 
+ 
+created stem related lesson plans for children residing within shands childrens hospital to aid in lesson and 
+activity implementation resulting in a positive learning environment 
+ 
+taught  lessons at shands childrens hospital and created meaningful connections with patients while helping 
+them comprehend stem related concepts 
+ 
+prepared  stem related activities to do at various afterschool programs in the gainesville community 
+ 
+partnership coordinator                                                                                                                              
+tedxuf                                                                                                                                                           gainesville fl 
+ 
+obtained  of the sponsors who supported the fundraising goal of  
+ 
+conducted effective fundraising efforts through phone calls inperson meetings and relationship building 
+ 
+managed upcoming ongoing and closed deals efficiently using the hubspot platform 
+ 
+maintained previous relationships with existing partners for tedxuf conferences 
+ 
+public relations assistant                                                                                                                            
+sisterhood enrichment team kappa delta                                                                                               gainesville fl 
+ 
+overhauled and maintained social media platforms instagramfacebook in preparation for the incoming new 
+member class facilitating a seamless transition into membership 
+ 
+pioneered the creation of a dynamic instagram page showcasing each new member significantly enhancing 
+engagement among the most recent cohort 
+ 
+ 
+ 
+vigilantly supervised new members social media accounts to align with the organizations values 
+ 
+elevated new member participation by implementing incentive strategies to drive interactions across kappa delta 
+managed profiles 
+ 
+marketing ambassador                                                                                                                                
+top tier                                                                                                                                                            gainesville fl 
+ 
+leveraged social media for event promotion effectively engaging vast audiences of potential customers  
+ 
+revamped ideas to improve customer experience and engagement 
+ 
+other experience 
+member                                                                                                                                                         present  
+uf securities analysis club                                                                                                                           gainesville fl 
+ 
+attended weekly meetings on debt and equity research commodity markets and foreign exchange markets 
+ 
+developed a fundamental understanding of fixed income securities capital structures and restructurings 
+ 
+member                                                                                                                                                         present  
+student investment club                                                                                                                                gainesville fl 
+ 
+acquired handson experience investing money in the stock market through platforms such as marketwatch 
+ 
+attended weekly information sessions to build an understanding of basic investment strategies and market 
+structures 
+ 
+member                                                                                                                                                          
+women in economics                                                                                                                                      gainesville fl              
+ 
+cultivated connections with women professionals in the economics field acquiring valuable insights into 
+potential career prospects 
+ 
+fostered a supportive and inclusive environment within the organization facilitating collective growth among 
+fellow women members 
+ 
+participantgraduate                                                                                                                                   
+uf innovations fellowship                                                                                                                            gainesville fl 
+ 
+completed the week program focused on expanding experience and knowledge about the development of 
+pioneering projectstechnology 
+ 
+generated ideas and outlined problemsolution definition to evaluate customer discovery and feedback analysis 
+ 
+developed an overall project summary pitch presented to the ceo of neocis 
+ 
+attendee                                                                                                                                               
+floridas women in energy leadership forum                                                                                                 tampa fl 
+ 
+collaborated with students from various different disciplines while attending the conference fully sponsored by 
+the university of florida 
+ 
+attended  keynote speaker presentations and panels lead by energy industry executives and experts 
+ 
+networked with leading professionals of the energy industry and created connections with other attendees 
+ 
+member                                                                                                                                                          
+gator venture capital                                                                                                                                    gainesville fl 
+ 
+participated in weekly meetings to actively learn insights about the expanding field of venture capital 
+ 
+developed skills and knowledge in the areas of dealsourcing portfolio building pitching and due diligence  
+ 
+customer service work experience 
+waitress                                                                                                                                                           
+big rays fish camp                                                                                                                                              tampa fl 
+ 
+ 
+ensured quality customer service in a highintensity environment 
+ 
+collaborated with team members to assist over   customers daily 
+ 
+resolved customer complaints which resulted in the development of valuable multitasking capabilities 
+ 
+authorized large product shipments of  to ensure they met quality and quantity requirements 
+ 
+ 
+ 
+file clerk                                                                                                                          
+quintairos prieto wood  boyer pa                                                                                                             tampa fl              
+ 
+provided clerical and administrative assistance to over  attorneys and over  support staff specifically tasked 
+with cataloging closed cases 
+ 
+oversaw the reorganization of decades of case filing implementing a new organization system for future staff to 
+utilize to ensure a smooth and efficient transition to paperless filing  
+ 
+ 
+","{'label': 'NEGATIVE', 'score': 0.8088349103927612}",NEGATIVE,0.8088349103927612
+navya_nair_Resume (2) - Navya Nair.pdf,"navya nair
+	
+nairnavyagmailcom    wwwlinkedincominnavyanair  parkland fl
+education
+bachelor of science in biomedical engineering          		
+	
+  expected graduation may  
+	
+university of florida
+	
+gpa 
+skills
+	
+solidworks certified kicad pcb soldering d printing arduino circuitry soldering onshape blender adobe indesign 
+canva linux operating system 
+	
+wetlab drylab lab mouse handling   
+	
+technical languages c matlab python ros javascript  verbal languages english spanish malayalam 
+design experience
+surgical team member  dream team engineering	 	
+	
+	
+	
+	
+                        january present
+	
+works with a team of  using cad models solidworks molding and other technical skills to generate a flow model of a 
+kidney transplant for surgeon residents at uf health to practice on
+	
+attends weekly meetings with team members to model mold and iterate the current design to fit the needs of the user 
+and meets with a uf health physician to gain feedback on the design and usability
+autonomous vehicles   special topics in mechanical engineering 	
+	
+	
+	
+  january  may 
+	
+participated in a comprehensive course on autonomous vehicle design covering key topics such as machine learning com
+puter vision and control systems through linux and ros
+	
+collaborated with a team of three to operate an autonomous vehicle prototype using advanced software tools such as 
+lidar publishing and subscribing nodes gps receivers and embedded systems
+	
+tested autonomous vehicles in a realworld setting both on a closed track and in a variety of challenging outdoor environ
+ments
+leadership and involvement
+deputy majority party leader  uf student government 	
+	
+	
+	
+	
+	
+       october present
+	
+elected as one of the  senators representing the interests of the  students at the university of florida by writing 
+and voting on legislation for the betterment of the campus
+	
+authored legislation encouraging university of florida students to vote in the  midterm elections and advocating for 
+protections against political encroachment
+	
+managed a caucus of  senators through weekly meetings to keep party members informed and engaged in the legislative 
+process
+workresearch experience
+research intern  technology for occupational performance top lab                                                                             may  august 
+	
+conceptualized a research project focused on evaluating the effectiveness of mobility devices specifically walkers in       
+enhancing the wellbeing of older adults
+	
+conducted a literature review of over  relevant articles to gather relevant information about the use of mobility devices 
+among older adults
+	
+utilized theia markerless and visuald software  ai markerless motion capture system to assess the biomechanics of 
+participants using walkers and gain insights into their gait posture and overall movement patterns 
+research assistant  dept of neurology parkinsons disease pd research lab                                                       january present
+	
+studies fecal microbial transplantation fmt as a treatment option for pd by observing effects intragastrically adminis
+tering stool solution has on mice
+	
+collects data on mouse models through gait analysis brain tissue collections and staining imaging and counting                 
+alphasynuclein plaque as written in the iacuc protocol and animal welfare    
+	
+reviews and publishes literature regarding pd to learn about recent developments and how it can be applied to                  
+current research 
+publications
+	
+hey g nair n klann emily etal  therapies for parkinsons disease and the gut microbiome evidence for               
+bidirectional connection frontiers in aging neuroscience  httpsdoiorgfnagi 
+","{'label': 'POSITIVE', 'score': 0.7983983755111694}",POSITIVE,0.7983983755111694
+"Andriana Detsis Fall 2023 Resume - Detsis, Andriana S..pdf"," 
+andriana detsis 
+st petersburg fl      adetsisufledu  
+education 
+bachelor of science in mechanical engineering                                        
+ 
+                    expected may  
+minor statistics 
+university of florida gainesville fl   
+ 
+ 
+ 
+ 
+                                       gpa  
+relevant coursework engineering design and society statics mechanics of materials design  manufacturing 
+laboratory computer programming matlab numerical methods artificial intelligence fundamentals professional 
+communication introduction to electrical engineering fluids mechanics dynamics innovation engineering statistics 
+ 
+leadership and experience  
+cobra design  engineering 
+design engineering intern 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           may   august  
+ 
+model electrical packaging components for military contractors utilizing solidworks draft drawings   
+ 
+collaborate with  other team members and executives to plan design and assemble military components such as 
+radio frequency antenna systems and transmission pods for drones 
+ 
+manage excel spreadsheets accounting for quantities costs and assembly of components  
+society of women engineers 
+sustainability chair  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      may   present 
+ 
+coordinate workshops seminars and informational sessions regarding sustainability practices within the 
+workplace and student life created new chair position 
+oncampus outreach chair 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+               may   may  
+ 
+organize events and volunteer opportunities with local girl scouts elementary middle and high schools to 
+promote engineering and stem fields through handson workshops creative building and prototyping 
+steam team design subteam lead  member  
+ 
+ 
+ 
+                       october   may  
+ 
+facilitated solid modeling and dprinting as subteam lead for the  academic year cade museum 
+ 
+communicated with teams to design and build scenic project promoting engineering among grade school students 
+ 
+worked with a subteam to design a mobile wheel to be attached to a project benefitting the cade museum 
+engineers without borders peru  
+design subteam member 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+               august   present  
+ 
+help design agricultural water retention wall to support  families in maras peru  
+public relations subteam member  
+ 
+ 
+ 
+ 
+ 
+ 
+         october   may  
+ 
+contribute to newsletters fundraising and engagement outside of the organization through social media posts 
+relating project information fundraising efforts and member spotlights 
+freshman leadership engineering group 
+diversity equity  inclusion chair  
+ 
+ 
+ 
+ 
+ 
+ 
+              may   april  
+ 
+support  freshman engineers to promote inclusivity via presentations workshops and weekly office hours 
+ 
+ensure the program maintains a sense of diversity and open communication among members by distributing 
+feedback surveys having open discussions and creating questions and conducting new member interviews 
+outreach committee ambassador  
+ 
+ 
+ 
+ 
+ 
+ 
+    september   april  
+ 
+collaborated with committee members to host  service events each semester benefitting greater gainesville 
+community raised  for shands hospital  for hailes angels pet rescue 
+university of florida department of housing  residence life 
+ 
+ 
+                august   present 
+resident assistant 
+ 
+collaborate with other resident assistants to plan two events a month fostering values such as community 
+engagement and multicultural belonging 
+ 
+act as the liaison between housing and residents relay community guidelines and standards support  residents 
+daily regarding academics extracurricular activities mental health and general wellness 
+ 
+skills 
+technical certified solidworks associate adobe photoshop and indesign matlab microsoft mos bundle 
+word excel powerpoint r learning 
+languages greek advanced spanish intermediate                                                                            
+","{'label': 'NEGATIVE', 'score': 0.6917016506195068}",NEGATIVE,0.6917016506195068
