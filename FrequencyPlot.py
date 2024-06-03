@@ -4,7 +4,7 @@ from collections import Counter
 import ast
 
 # Path to the uploaded CSV file with keywords
-csv_file_path = "/Users/utsavsharma/Desktop/ResumeReader/cleaned_resumes_with_keywords.csv"
+csv_file_path = "/Users/utsavsharma/Desktop/RR/CleanedCSVs/cleaned_resumes_with_keywords.csv"
 
 # Load the CSV file
 df_keywords = pd.read_csv(csv_file_path)

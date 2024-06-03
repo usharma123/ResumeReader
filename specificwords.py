@@ -4,7 +4,7 @@ from collections import defaultdict
 import ast
 
 # Load the CSV file
-csv_file_path = "/Users/utsavsharma/Desktop/ResumeReader/cleaned_resumes_with_keywords.csv"
+csv_file_path = "/Users/utsavsharma/Desktop/RR/CleanedCSVs/cleaned_resumes_with_keywords.csv"
 df = pd.read_csv(csv_file_path)
 
 # Convert the keywords from string representation of lists to actual lists

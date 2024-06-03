@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Path to the uploaded CSV file with highlighted work experience
-csv_file_path = "/Users/utsavsharma/Desktop/ResumeReader/highlighted_work_experience.csv"
+csv_file_path = "/Users/utsavsharma/Desktop/RR/CleanedCSVs/highlighted_work_experience.csv"
 
 # Load the CSV file
 df = pd.read_csv(csv_file_path)

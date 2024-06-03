@@ -19,7 +19,7 @@ def extract_keywords(text, n=10):
 df['keywords'] = df['cleaned_text'].apply(lambda text: extract_keywords(text))
 
 # Save the updated dataframe to a new CSV file
-output_csv_path = "/Users/utsavsharma/Desktop/ResumeReader/cleaned_resumes_with_keywords.csv"
+output_csv_path = "/Users/utsavsharma/Desktop/RR/CleanedCSVs/cleaned_resumes_with_keywords.csv"
 df.to_csv(output_csv_path, index=False)
 
 # Display the dataframe with keywords

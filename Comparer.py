@@ -2,7 +2,7 @@ import pandas as pd
 from transformers import pipeline
 
 # Load the CSV file
-csv_file_path = "/Users/utsavsharma/Desktop/ResumeReader/cleaned_resumes.csv"
+csv_file_path = "/Users/utsavsharma/Desktop/RR/CleanedCSVs/cleaned_resumes.csv"
 df = pd.read_csv(csv_file_path)
 
 # Initialize the sentiment analysis pipeline

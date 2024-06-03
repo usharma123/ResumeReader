@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Path to the uploaded CSV file
-csv_file_path = "/Users/utsavsharma/Desktop/ResumeReader/cleaned_resumes_with_sentiment.csv"
+csv_file_path = "/Users/utsavsharma/Desktop/RR/CleanedCSVs/cleaned_resumes_with_sentiment.csv"
 
 # Load the CSV file
 df = pd.read_csv(csv_file_path)

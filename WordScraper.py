@@ -22,7 +22,7 @@ def clean_text(text):
     return cleaned_text
 
 # Folder containing the resumes
-resume_folder_path = "/Users/utsavsharma/Desktop/ResumeReader/Resumes"
+resume_folder_path = "/Users/utsavsharma/Desktop/RR/Resumes"
 output_csv_path = "cleaned_resumes.csv"
 
 # Prepare the data for the CSV
