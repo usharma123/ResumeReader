@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chat with LLM</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Chat with the Model</h1>
+    <div id="chat-box" style="border: 1px solid #ccc; padding: 10px; width: 400px; height: 300px; overflow-y: scroll;">
+        <!-- Conversation will be displayed here -->
+    </div>
+    <input type="text" id="user-input" placeholder="Type your message here..." style="width: 300px;">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        let conversation = [];
+
+        function sendMessage() {
+            const userInput = $('#user-input').val();
+            if (userInput.trim() === '') return;
+
+            $('#chat-box').append(`<p><strong>User:</strong> ${userInput}</p>`);
+            $('#user-input').val('');
+
+            conversation.push({role: 'user', content: userInput});
+
+            $.ajax({
+                url: '/llm_intro',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({message: userInput, conversation: conversation}),
+                success: function(response) {
+                    conversation = response.conversation;
+                    $('#chat-box').append(`<p><strong>System:</strong> ${response.response}</p>`);
+                    $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

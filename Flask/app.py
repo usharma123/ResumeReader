@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, url_for, flash
+from flask import Flask, request, render_template, redirect, url_for, flash, jsonify
 import pandas as pd
 from PyPDF2 import PdfReader
 import docx
@@ -9,6 +9,7 @@ import ssl
 import string
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
+from mlx_lm import load, generate
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -26,6 +27,9 @@ from nltk.corpus import stopwords
 # Load pre-trained model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained("distilbert-base-uncased")
 model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased")
+
+# load llama model
+llama_model, llama_tokenizer = load("mlx-community/Meta-Llama-3-8B-Instruct-4bit")
 
 # Initialize pipeline
 nlp_pipeline = pipeline("text-classification", model=model, tokenizer=tokenizer)
@@ -87,9 +91,30 @@ def upload_file():
 
     return render_template('upload.html')
 
+@app.route('/llm_intro', methods=['GET', 'POST'])
+def llm_intro():
+    if request.method == 'POST':
+        user_message = request.json.get('message')
+        conversation = request.json.get('conversation', [])
+        
+        messages = [ {"role": "system", "content": "You are a hiring manager looking to hire an employee. Assist the user in determing the right skills."}]
+        
+        # add the messages to the top of the conversation before applying template
+        messages.extend(conversation) 
+        messages.append({"role": "user", "content": user_message})
+        
+        input_ids = llama_tokenizer.apply_chat_template(messages, 
+                                          add_generation_prompt=True)
+        prompt = llama_tokenizer.decode(input_ids)
+        
+        response = generate(llama_model, llama_tokenizer, prompt=prompt)
+        
+        conversation.append({"role": "user", "content": user_message})
+        conversation.append({"role": "system", "content": response})
+
+        return jsonify({"conversation": conversation, "response": response})
+    else:
+        return render_template('llm_intro.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
