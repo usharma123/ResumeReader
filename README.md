@@ -1,6 +1,6 @@
 # ResumeReader
 1. Change path names to run locally
-2. Fine tune LLM in updated_app.py
+2. Fine tune LLM in app.py
 3. Update UI
 4. Add capability to sift through multiple resumes. 
 
