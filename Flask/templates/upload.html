@@ -50,6 +50,22 @@
             height: auto;
             margin-bottom: 20px;
         }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button-container a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .button-container a:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -61,9 +77,9 @@
             <br>
             <input type="submit" value="Upload">
         </form>
+        <div class="button-container">
+            <a href="{{ url_for('llm_intro') }}">Go to Chat Page</a>
+        </div>
     </div>
 </body>
 </html>
-
-
-
