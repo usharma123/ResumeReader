@@ -19,14 +19,14 @@
         #logo {
             display: block;
             margin: 0 auto 20px;
-            width: 150px; /* Adjust size as needed */
+            width: 200px; /* Increased size for logo */
         }
         #conversation {
             border: 2px solid #e60000; /* Red border */
             padding: 20px;
             margin-bottom: 20px;
             background-color: #fff;
-            max-height: 300px;
+            height: 400px; /* Slightly smaller height */
             overflow-y: auto;
             border-radius: 5px;
         }
@@ -67,16 +67,18 @@
         }
         .form-group {
             margin-bottom: 20px;
+            display: flex;
+            justify-content: center; /* Center the content */
+            align-items: center;
         }
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
+        .form-group input[type="file"] {
+            margin-right: 10px; /* Space between file input and button */
         }
     </style>
 </head>
 <body>
     <img id="logo" src="{{ url_for('static', filename='DTE logo.png') }}" alt="Dream Team Engineering Logo">
-    <h1>Chat with the Model</h1>
+    <h1>ResumeLLM</h1>
     <div id="conversation"></div>
     <form id="chat-form">
         <div class="form-group">
@@ -134,4 +136,3 @@
     </script>
 </body>
 </html>
-
