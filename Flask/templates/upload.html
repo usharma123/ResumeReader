@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Upload Resumes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat and Upload</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,24 +16,65 @@
             background-color: #f4f4f4;
         }
         .container {
-            text-align: center;
             background-color: #ffffff;
-            padding: 30px;
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
         }
         h1 {
+            text-align: center;
             margin-bottom: 20px;
+        }
+        #chat-box {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        #chat-box p {
+            margin: 5px 0;
+        }
+        #chat-box p strong {
+            color: #333;
+        }
+        .input-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        #user-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
         }
         form {
             margin-bottom: 20px;
         }
-        input[type="file"] {
+        input[type="file"],
+        input[type="text"] {
             margin: 10px 0;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 5px;
             cursor: pointer;
+            width: 100%;
         }
         input[type="submit"] {
             padding: 10px 20px;
@@ -45,41 +88,56 @@
         input[type="submit"]:hover {
             background-color: #0056b3;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-        }
-        .button-container {
-            margin-top: 20px;
-        }
-        .button-container a {
-            text-decoration: none;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #007bff;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .button-container a:hover {
-            background-color: #0056b3;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="{{ url_for('static', filename='DTE logo.png') }}" alt="Dream Team Engineering Logo">
-        <h1>Upload Resumes</h1>
-        <form method="post" enctype="multipart/form-data">
-            <input type="file" name="file" multiple>
-            <br>
-            <input type="submit" value="Upload">
-        </form>
-        <div class="button-container">
-            <a href="{{ url_for('llm_intro') }}">Go to Chat Page</a>
+        <h1>Chat with the Model</h1>
+        <div id="chat-box">
+            <!-- Conversation will be displayed here -->
         </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+        <!-- Form for LLM processing -->
+        <h2>Upload Resume for LLM Processing</h2>
+        <form action="/llm_intro_upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <input type="text" name="message" placeholder="Type your message" required>
+            <input type="hidden" name="conversation" value='[]'>
+            <br>
+            <input type="submit" value="Send">
+        </form>
     </div>
+
+    <script>
+        let conversation = [];
+
+        function sendMessage() {
+            const userInput = $('#user-input').val();
+            if (userInput.trim() === '') return;
+
+            $('#chat-box').append(`<p><strong>User:</strong> ${userInput}</p>`);
+            $('#user-input').val('');
+
+            conversation.push({role: 'user', content: userInput});
+
+            $.ajax({
+                url: '/llm_intro',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({message: userInput, conversation: conversation}),
+                success: function(response) {
+                    conversation = response.conversation;
+                    $('#chat-box').append(`<p><strong>System:</strong> ${response.response}</p>`);
+                    $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight);
+                }
+            });
+        }
+    </script>
 </body>
 </html>
+
+

@@ -5,14 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Chat with LLM</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .chat-container {
+            width: 100%;
+            max-width: 600px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            padding: 20px;
+        }
+        #chat-box {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            height: 400px;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        #chat-box p {
+            margin: 5px 0;
+        }
+        #chat-box p strong {
+            color: #333;
+        }
+        .input-container {
+            display: flex;
+        }
+        #user-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Chat with the Model</h1>
-    <div id="chat-box" style="border: 1px solid #ccc; padding: 10px; width: 400px; height: 300px; overflow-y: scroll;">
-        <!-- Conversation will be displayed here -->
+    <div class="chat-container">
+        <h1>Chat with the Model</h1>
+        <div id="chat-box">
+            <!-- Conversation will be displayed here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
     </div>
-    <input type="text" id="user-input" placeholder="Type your message here..." style="width: 300px;">
-    <button onclick="sendMessage()">Send</button>
 
     <script>
         let conversation = [];
@@ -35,6 +95,9 @@
                     conversation = response.conversation;
                     $('#chat-box').append(`<p><strong>System:</strong> ${response.response}</p>`);
                     $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight);
+                },
+                error: function(xhr, status, error) {
+                    console.error('Error:', error);
                 }
             });
         }
