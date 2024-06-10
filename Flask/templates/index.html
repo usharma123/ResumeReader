@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with the Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        #conversation {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            max-height: 300px;
+            overflow-y: scroll;
+        }
+        .message {
+            margin-bottom: 10px;
+        }
+        .message strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat with the Model</h1>
+    <div id="conversation"></div>
+    <form id="chat-form">
+        <input type="text" name="message" placeholder="Type your message here..." required>
+        <button type="submit">Send</button>
+    </form>
+    <h2>Upload Resume for LLM Processing</h2>
+    <form id="upload-form" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Send</button>
+    </form>
+    <script>
+        let conversation = [];
+
+        document.getElementById('chat-form').onsubmit = async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            const message = formData.get('message');
+            addMessage('User', message);
+            const response = await fetch('/llm_intro', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message, conversation })
+            });
+            const data = await response.json();
+            conversation = data.conversation;
+            addMessage('System', data.response);
+            this.reset();
+        };
+
+        document.getElementById('upload-form').onsubmit = async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+            addMessage('System', data.response);
+        };
+
+        function addMessage(sender, text) {
+            const conversationDiv = document.getElementById('conversation');
+            const message = document.createElement('div');
+            message.classList.add('message');
+            message.innerHTML = `<strong>${sender}:</strong> <span>${text}</span>`;
+            conversationDiv.appendChild(message);
+            conversationDiv.scrollTop = conversationDiv.scrollHeight;
+        }
+    </script>
+</body>
+</html>
