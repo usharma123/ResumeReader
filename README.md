@@ -1,6 +1,6 @@
 # ResumeReader
 1. Change path names to run locally
-2. Need to find a way for all the resumes to be parsed equally (probably a formatting issue)
-3. Start training LLM to parse more effectively
-4. Update UI
+2. Fine tune LLM in updated_app.py
+3. Update UI
+4. Add capability to sift through multiple resumes. 
 
